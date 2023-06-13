@@ -1,72 +1,125 @@
+FS-08 (M6)
+Cat photo app (HTML: Class Assignment 4)
+Cat photo app (HTML: Class Assignment 4)
+Priyanshu Choudhary
+•
+15 May (Edited 15 May)
+0/100
+0 points out of a possible 100
+Due 18 May, 23:59
+- You have to make a resume format using HTML
+- Reference for resume is given below
+- Provide hosted link and GitHub link for the same
+
+Document
+https://priyanshu-240499.github.io/Assignments-CSS/html_day2/day2.html
+Your work
+Marked
+
+CatPhoto.html
+HTML
+
+Page not found · GitHub Pages
+https://arpitjain4454.github.io/CatPhoto/
+2 private comments
+
+Arpit Jain19 May
+Sir i go to office everyday so i didnt get time, i will complete all assignment on weekends
+
+Ritik Masand24 May
+hosted link not working
+Class comments
 <!DOCTYPE html>
-<html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h1>Cat photo App</h1>
+    <h2>Cat photo</h2>
+    <div>
+      <p>
+        Click here to view more <a href="#catList">cat photos.(anchor tag)</a>
+      </p>
+      <a href="#">
+        <img
+          src="https://cdn.freecodecamp.org/curriculum/cat-photo-app/relaxing-cat.jpg"
+          alt="cat.img"
+        />
+      </a>
+    </div>
 
-<head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Cafe Menu</title>
-  <link href="styles.css" rel="stylesheet" type="text/css" />
-</head>
+    <div id="catList">
+      <h2>Cat Lists</h2>
+      <h3>Things Cat love:</h3>
 
-<body>
-  <div class="menu">
-    <header>
-      <h1>CAMPER CAFE</h1>
-      <p class="established">Est. 2020</p>
-    </header>
-    <hr>
-    <main>
-      <section>
-        <h2>Coffee</h2>
-        <img src="https://cdn.freecodecamp.org/curriculum/css-cafe/coffee.jpg" alt="coffee icon" />
-        <article class="item">
-          <p class="flavor">French Vanilla</p>
-          <p class="price">3.00</p>
-        </article>
-        <article class="item">
-          <p class="flavor">Caramel Macchiato</p>
-          <p class="price">3.75</p>
-        </article>
-        <article class="item">
-          <p class="flavor">Pumpkin Spice</p>
-          <p class="price">3.50</p>
-        </article>
-        <article class="item">
-          <p class="flavor">Hazelnut</p>
-          <p class="price">4.00</p>
-        </article>
-        <article class="item">
-          <p class="flavor">Mocha</p>
-          <p class="price">4.50</p>
-        </article>
-      </section>
-      <section>
-        <h2>Desserts</h2>
-        <img src="https://cdn.freecodecamp.org/curriculum/css-cafe/pie.jpg" alt="pie icon" />
-        <article class="item">
-          <p class="dessert">Donut</p>
-          <p class="price">1.50</p>
-        </article>
-        <article class="item">
-          <p class="dessert">Cherry Pie</p>
-          <p class="price">2.75</p>
-        </article>
-        <article class="item">
-          <p class="dessert">Cheesecake</p>
-          <p class="price">3.00</p>
-        </article>
-        <article class="item">
-          <p class="dessert">Cinnamon Roll</p>
-          <p class="price">2.50</p>
-        </article>
-      </section>
-    </main>
-    <hr class="bottom-line">
-    <footer>
-      <p><a href="https://www.freecodecamp.org" target="_blank">Visit our website</a></p>
-      <p class="address">123 Free Code Camp Drive</p>
-    </footer>
-    <h5>&copy; Copyright 20 May 2022, Mohammad Khafas</h5>
-  </div>
-</body>
-<html>
+      <ul>
+        <li>cat lip</li>
+        <li>laser pointers</li>
+        <li>lasagna</li>
+      </ul>
+      <div class="inner-div">
+        <img
+          src="https://cdn.freecodecamp.org/curriculum/cat-photo-app/lasagna.jpg"
+          alt="lasagne.img"
+          height="250px"
+          width="350px"
+        />
+
+        <p>cats <span>love</span> lasagne</p>
+      </div>
+      <h3>Top 3 things cats hate</h3>
+
+      <ol>
+        <li>flea problem</li>
+        <li>thunder</li>
+        <li>other cats</li>
+      </ol>
+      <div class="inner-div">
+        <img
+          src="https://cdn.freecodecamp.org/curriculum/cat-photo-app/cats.jpg"
+          alt="cats-grp.img"
+          height="250px"
+          width="350px"
+        />
+        <p>cats <strong>hate</strong> other cats</p>
+      </div>
+    </div>
+
+    <h2>Cat table</h2>
+    <table frame="box" rules="all">
+      <tr>
+        <th>cat 1</th>
+        <th>cat 2</th>
+        <th>cat 3</th>
+      </tr>
+      <tr>
+        <td rowspan="2">Cat-row 1 Cat-col 1</td>
+        <td>Cat-row 1 Cat-col 2</td>
+        <td>Cat-row 1 Cat-col 3</td>
+      </tr>
+      <tr>
+        <td>Cat-row 2 Cat-col 2</td>
+        <td>Cat-row 2 Cat-col 3</td>
+      </tr>
+      <tr>
+        <td colspan="3">Cat-row 3 Cat-col 1</td>
+      </tr>
+    </table>
+    <h2>Summary</h2>
+    <p>
+      <strong>This is strong tag</strong>Lorem ipsum dolor sit amet<b
+        >This is b tag</b>consectetur adipisicing elit. Dolores <i>This is i tag</i> quo ad dolor illum nam delectus
+      error pariatur placeat eaque dolore aliquam fuga unde consequatur
+      <em>This is em tag</em> sed voluptatibus harum, laudantium a cupiditate
+      eveniet natus amet nostrum ab numquam. Nihil, pariatur
+      a? Obcaecati minus, dignissimos optio qui atque repellendus mollitia
+      aliquid recusandae omnis!
+    </p>
+  </body>
+</html>
+CatPhoto.html
+Displaying CatPhoto.html.
